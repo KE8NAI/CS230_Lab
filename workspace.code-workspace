@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pico-tracker"
+		}
+	],
+	"settings": {}
+}
