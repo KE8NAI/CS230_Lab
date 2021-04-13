@@ -1,41 +1,82 @@
 h1{
-    text-align:center;
-}
-h3{
-    color: goldenrod;}
+    text-align: center;
+    color: rgb(6, 8, 10);
+    font-weight: bold;
 
-P{
-    color: grey;
 }
+
+.about {
+
+    background: rgb(70, 19, 40);
+    padding: 8px;
+    text-align: center;
+    color: rgb(249, 249, 250);
+    font-weight: bold;
+    
+    }
+
+
+h3{
+   color: rgb(0, 0, 0); 
+}
+
+p{
+
+    text-align: center;
+    color: rbg(0, 40, 85);
+
+}
+
 img{
     max-width: 220px;
     height: 220px;
     margin-top: 10px;
 }
+
 .gallery-container{
     text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
-.card{
-border-radius: 10px;
-margin: 10px;
-width: 20%;
-max-width:280px;
-height:auto;
-padding: 5px;
 
 }
-.gallery-container a{
+
+.card{
+    border-radius: 10px;
+    margin: 10px;
+    width: 20%;
+    max-width: 280px;
+    height: auto;
+    padding: 5px;
+    box-shadow: 10px 10px 5px grey;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(13, 17, 20);
+    
+    
+
+}
+
+.gallery_container a{
     background-color: black;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
 }
-.gallery-container a:hover{
+
+.gallery_container a:hover{
     opacity: 70%;
-    text-decoration-color: coral;
+    text-decoration-color: rgb(70, 19, 40);
+}
+
+.footer {
+    text-align: center;
+    background: rgb(170, 170, 170);
+    padding: 8px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(70, 19, 40);
+    
 
 }

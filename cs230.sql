@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 12, 2021 at 10:44 PM
+-- Generation Time: Mar 25, 2021 at 02:27 PM
 -- Server version: 5.7.33-0ubuntu0.18.04.1
 -- PHP Version: 7.2.24-0ubuntu0.18.04.7
 
@@ -72,28 +72,6 @@ CREATE TABLE `reviews` (
   `rating` int(11) NOT NULL,
   `status` int(11) NOT NULL DEFAULT '0' COMMENT 'is ther at least one review'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `songs`
---
-
-CREATE TABLE `songs` (
-  `songname` varchar(50) NOT NULL,
-  `lkpath` varchar(300) DEFAULT NULL,
-  `rw` text,
-  `prof` varchar(50) NOT NULL,
-  `band` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf16;
-
---
--- Dumping data for table `songs`
---
-
-INSERT INTO `songs` (`songname`, `lkpath`, `rw`, `prof`, `band`) VALUES
-('Make a little', '<iframe src=\"https://open.spotify.com/embed/track/0cdyphV2sDgFUKEKOOiMbg\" width=\"250\" height=\"100\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>', 'This song is quite frankly amazing it really makes me feel something', '', 'Midland'),
-('Panama', '<iframe src=\"https://open.spotify.com/embed/track/05RgAMGypEvqhNs5hPCbMS\" width=\"250\" height=\"100\" frameborder=\"0\" allowtransparency=\"true\" allow=\"encrypted-media\"></iframe>', 'I love this song a whole lot. The use of the hairdryer to make car noises is immaculate. ', '1234', 'Van Halen');
 
 -- --------------------------------------------------------
 
