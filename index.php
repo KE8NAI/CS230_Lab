@@ -7,7 +7,7 @@ require 'includes/header.php';
     
     <div class="about">
         <h1>About Us</h1>
-        <p>heheheheheheheheheheheheheheheheheheheheheheheheh</p>
+        <p>this is a test</p>
     </div>
     <div class="row">
         <div class="column">
